@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>default</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Diffraction Grating Pattern Generator</h2>
+    <a href="https://github.com/martian17/diffraction-grating-generator">Github repo</a><br>
+    <a href="https://www.youtube.com/watch?v=uf3Y0-6NbjQ&t=556s">Huygens Optics's video about making tiny fresnel lenses</a>
+    <br><br>
+    <div>
+        λ (wave length)<input type="range" min="-3" max="3" step="0.0001" id="lambda"><span contenteditable="true" id="lambda-val"></span>px<br>
+        f (focal point)<input type="range" min="-3000" max="3000" step="0.0001" id="focal"><span contenteditable="true" id="focal-val"></span>px
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="main.js"></script>
+</body>

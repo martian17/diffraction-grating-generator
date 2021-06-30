@@ -1,0 +1,15 @@
+body {
+    font-family: Courier;
+}
+
+input[type="range"] {
+    width: 300px;
+}
+
+#lambda-val, #focal-val {
+    width: 7em;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
